@@ -1,1 +1,9 @@
- 
+# VS 编辑器相关
+.vs/
+*.suo
+DocumentLayout.backup.json
+DocumentLayout.json
+
+# 编译输出目录
+**/bin/
+**/obj/ 
