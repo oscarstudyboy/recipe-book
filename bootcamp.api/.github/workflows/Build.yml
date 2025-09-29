@@ -23,12 +23,12 @@ jobs:
     
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: bootCamp
-    
+      working-directory: src/bootcamp.api
+
     - name: Build
       run: dotnet build --no-restore
-      working-directory: bootCamp
-    
+      working-directory: src/bootcamp.api
+
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      working-directory: bootCamp
+      working-directory: src/bootcamp.api
